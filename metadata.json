@@ -1,0 +1,8 @@
+{
+  "name": "Avinash Hospitals",
+  "description": "30-bedded multispecialty hospital in Kovilambakkam, Chennai. Committed to transparency in healthcare with specialized orthopedic, reconstructive surgery, surgical, gynecological, and diagnostic care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-hospital-navy: #173B4B;
+  --color-hospital-navy-dark: #0F2631;
+  --color-hospital-teal: #397A78;
+  --color-hospital-teal-dark: #2A5A58;
+  --color-hospital-teal-light: #EBF3F2;
+  --color-hospital-warm: #F7F8F5;
+  --color-hospital-text: #26353D;
+  --color-hospital-muted: #6B777C;
+  --color-hospital-border: #E2E7E6;
+  --color-hospital-emergency: #B93B36;
+  --font-heading: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root {
+  --primary-navy: #173B4B;
+  --secondary-teal: #397A78;
+  --bg-warm: #F7F8F5;
+  --text-main: #26353D;
+  --text-secondary: #6B777C;
+  --border-light: #E2E7E6;
+  --emergency: #B93B36;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F7F8F5;
+  color: #26353D;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Accessible focus outline */
+*:focus-visible {
+  outline: 2px solid #397A78;
+  outline-offset: 2px;
+}
